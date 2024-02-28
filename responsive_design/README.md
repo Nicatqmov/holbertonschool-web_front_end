@@ -1,0 +1,1 @@
+responsive style for web
