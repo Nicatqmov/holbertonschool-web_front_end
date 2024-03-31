@@ -1,0 +1,62 @@
+body {
+    padding-top: 3rem;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.navbar {
+    margin-bottom: 2rem;
+}
+
+.pricing-header {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.card-deck .card {
+    min-width: 220px;
+}
+
+/* Responsive styles */
+@media (min-width: 768px) {
+    .navbar {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media (min-width: 992px) {
+    .pricing-header {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+
+    .card-deck .card {
+        flex: 1 0 0%;
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+}
+
+/* Footer styles */
+.footer {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background-color: #f8f9fa;
+}
+
+.footer ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.footer ul li {
+    padding: 0.5rem 0;
+}
+
+.footer ul li a {
+    color: #6c757d;
+}
+
+.footer ul li a:hover {
+    color: #343a40;
+}
